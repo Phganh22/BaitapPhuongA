@@ -18,8 +18,6 @@ $allowedSubjects = [
     "Khác"
 ];
 
- KIỂM TRA KHI NGƯỜI DÙNG NHẤN "GỬI"
-
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
@@ -76,7 +74,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
 
-    /
 
     if (isset($_FILES["avatar"]) && $_FILES["avatar"]["error"] !== UPLOAD_ERR_NO_FILE) {
 
